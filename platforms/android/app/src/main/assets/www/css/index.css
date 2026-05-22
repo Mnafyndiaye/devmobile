@@ -1,0 +1,20 @@
+label,
+input,
+button {
+    display: block;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}

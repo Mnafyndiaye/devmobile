@@ -1,4 +1,4 @@
-function init() {
+document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
     if (form) {
         form.addEventListener('submit', function (e) {
@@ -6,13 +6,7 @@ function init() {
             calculIMC();
         });
     }
-}
-
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-} else {
-    init();
-}
+});
 
 function calculIMC() {
     const poidsEl = document.getElementById('poids');
